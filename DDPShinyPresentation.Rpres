@@ -1,0 +1,79 @@
+Fort Meadow Reservoir Fishing Spot Locater
+========================================================
+author: Rich Florez
+date: 1/08/17
+
+Introduction
+========================================================
+
+Welcome to the Fort Meadow Reservoir Fishing Spot Locater
+
+Presented by Rich Florez, Owner/Proprietor 
+
+![Assabet River Kayaks](arkstamp2.jpg)
+
+For more information about ARK please visit us at:
+
+www.assabetriverkayaks.com
+
+The purpose of this application is for the user to 
+locate the specific spot where the particular type
+of fish they are interested in catching has been 
+reported to have been caught on this lake.
+
+Application Instructions/Details
+========================================================
+
+This simple to use application utilizes a drop-down menu
+for the user to select from the available list of fish
+to have been reportedly caught at this lake and get further
+details on the fish specie from the URL links provided.
+
+1. Simply select a fish from the drop-down menu
+2. Click on the map icon for the fish type URL
+
+The app features:
+
+- Zoomed in area for the fishing spot selected
+- Icon popup with URL link for fish specie details
+- Interactive Leaflet map with color coded legend
+
+Application Link and Preview
+========================================================
+
+<a href='https://richflorez.shinyapps.io/DDPProject/'>Fort Meadow Reservoir Fishing Spot Locater</a>
+
+![App Preview:](fishfinder.png)
+```{r, echo=FALSE}
+
+```
+
+
+GitHub Repo Link/Data Sample
+========================================================
+
+ui.R and server.R files can be found at:
+
+http://github.com/RichFlorez/DDPShinyApp
+
+```{r, echo=FALSE}
+
+ftMdwFish = data.frame(
+  lat = c(42.37154, 42.36587, 42.36939, 42.37085, 42.37510, 42.37462),
+  lng = c(-71.54194, -71.55237, -71.55039, -71.53718, -71.53353, -71.53799),
+  clr = c("green", "blue", "red", "blue", "red", "yellow"),
+  urlLoc = c(
+    "<a href='http://www.mafishfinder.com/fort-meadow-reservoir-25296-location.html'>Fort Meadow Reservoir</a>",
+    "<a href='http://www.mafishfinder.com/brown-trout-7-fish.html'>Brown Trout</a>",
+    "<a href='http://www.mafishfinder.com/largemouth-bass-13-fish.html'>Largemouth Bass</a>",
+    "<a href='http://www.mafishfinder.com/rainbow-trout-16-fish.html'>Rainbow Trout</a>",
+    "<a href='http://www.mafishfinder.com/smallmouth-bass-18-fish.html'>Smallmouth Bass</a>",
+    "<a href='http://www.mafishfinder.com/bluegill-4-fish.html'>Bluegill</a>"),
+  zm = c(15, 17, 17, 17, 17, 17)) 
+```
+
+```{r}
+head(ftMdwFish)
+```
+
+
