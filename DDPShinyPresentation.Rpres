@@ -3,14 +3,15 @@ Fort Meadow Reservoir Fishing Spot Locater
 author: Rich Florez
 date: 1/08/17
 
+
 Introduction
 ========================================================
 
 Welcome to the Fort Meadow Reservoir Fishing Spot Locater
 
-Presented by Rich Florez, Owner/Proprietor 
+Presented by Rich Florez, Owner/Proprietor
 
-![Assabet River Kayaks](arkstamp2.jpg)
+![Assabet River Kayaks:](arkstamp2.png)
 
 For more information about ARK please visit us at:
 
@@ -44,9 +45,6 @@ Application Link and Preview
 <a href='https://richflorez.shinyapps.io/DDPProject/'>Fort Meadow Reservoir Fishing Spot Locater</a>
 
 ![App Preview:](fishfinder.png)
-```{r, echo=FALSE}
-
-```
 
 
 GitHub Repo Link/Data Sample
